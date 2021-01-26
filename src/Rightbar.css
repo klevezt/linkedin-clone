@@ -1,0 +1,92 @@
+.rightbar {
+  height: auto;
+  width: 315px;
+}
+
+.rightbar__card1,
+.rightbar__card2 {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #eded;
+}
+
+.rightbar__level1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.rightbar__level1 > h4,
+.rightbar__level1 > .MuiSvgIcon-root {
+  color: #434343;
+  font-size: 16px;
+  font-weight: 550;
+}
+.rightbar__level3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #666666;
+}
+.rightbar__level3 > h3 {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 8px;
+}
+.rightbar__level3:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.rightbar__card2 {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.rightbar__card2 > .rightbar__level2 {
+  padding-top: 5px;
+}
+.rightbar__card2 > .rightbar__level2:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.rightbar__card3 {
+  padding: 10px auto;
+  margin: 20px auto;
+  width: 100%;
+}
+.rightbar__card3 > ul {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rightbar__card3 > ul > li {
+  font-size: 12px;
+  list-style: none;
+  margin: 2px 5px;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  color: #56687a;
+  font-weight: 400;
+}
+.rightbar__card3 > ul > li:hover {
+  text-decoration: underline;
+  color: #0a66c2;
+  cursor: pointer;
+}
+.rightbar__card3 > .rightbar__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #56687a;
+  font-size: 13px;
+}
+.rightbar__card3 > .rightbar__footer > img {
+  object-fit: contain;
+  height: 13px;
+  margin-right: 4px;
+}

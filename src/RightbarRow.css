@@ -1,0 +1,45 @@
+.rightbarRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-top: 2px;
+}
+.rightbarRow__avatar {
+  /* padding: 15px; */
+  margin: 10px;
+}
+.rightbarRow__follow__button {
+  display: flex;
+  align-items: center;
+  outline-width: 0;
+  border-radius: 99px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  width: auto;
+  background-color: transparent;
+  margin-top: 5px;
+  color: #666666;
+}
+.rightbarRow__follow__button:hover {
+  cursor: pointer;
+  background-color: #e0e0de;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
+.rightbarRow__follow__button > h4 {
+  padding: 0 10px;
+}
+
+.rightbarRow__top__row > h2 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+.rightbarRow__top__row > h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}

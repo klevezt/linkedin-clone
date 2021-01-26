@@ -1,0 +1,143 @@
+.modal {
+  width: 100%;
+  z-index: 101;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+}
+
+.modal-main {
+  background: white;
+  height: auto;
+  border-radius: 10px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #666;
+  padding: 8px 20px;
+  padding-right: 10px;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+.modal__header > h5 {
+  font-size: 21px;
+  font-weight: 450;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.modal__header > .MuiSvgIcon-root {
+  height: 10px;
+}
+
+.modal__body__top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.modal__avatar {
+  margin: 12px 18px;
+}
+.modal__avatar__info > h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.modal__public__button {
+  display: flex;
+  align-items: center;
+  outline-width: 0;
+  border-radius: 99px;
+  padding: 4px 5px;
+  font-size: 18px;
+  border: 1px solid #222;
+  width: auto;
+  background-color: transparent;
+  margin-top: 5px;
+  color: #666666;
+}
+.modal__public__button:hover {
+  cursor: pointer;
+  background-color: #e0e0de;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.modal__public__button > h4 {
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+.modal__body__text > textarea {
+  width: 80%;
+  resize: none;
+  font-size: 18px;
+  margin: 0 4%;
+  outline: none;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modal__body__text > button {
+  margin-left: 4%;
+  font-size: 15px;
+  color: #4166c2;
+  font-weight: 550;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.modal__body__text > button:hover {
+  background-color: #d2d7ff;
+  cursor: pointer;
+}
+
+.modal__body__text__icons {
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.anyone {
+  font-size: 13px;
+  padding-left: 5px;
+}
+.modal__post__button {
+  margin-left: auto;
+  border-radius: 99px;
+  color: white;
+  background-color: rgb(10, 102, 194);
+  padding: 8px 18px;
+  border: none;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.modal__post__button:hover {
+  background-color: rgb(6, 71, 136);
+  cursor: pointer;
+}
+.modal__post__button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}

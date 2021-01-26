@@ -1,0 +1,18 @@
+.headerNavigation {
+  display: grid;
+}
+.headerNavigation__icon {
+  height: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerNavigation__title {
+  margin-top: 13px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.headerNavigation__icon > .MuiSvgIcon-root {
+  font-size: x-large;
+}
